@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 1300px;
+    margin:0 auto;
+}
+.clear_fix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+nav{
+    background: #000;
+}
+.nav .left a{
+    text-decoration: none;
+    font-family: 'helvetica';
+    color: #fff; 
+    padding: 0 10px;
+    font-size: 18px;
+}
+.nav .left a span{
+    text-decoration: none;
+    font-family: 'helvetica';
+    color: #fff; 
+    padding: 0 10px;
+    font-size: 18px;
+    text-align: left;
+}
+.logo{
+    line-height: 30px;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.nav .left p{
+    display: '';
+    color: #fff;
+    font-family: 'helvetica';
+}
+.rigth{
+ float: right;
+ width: 70%;
+
+}
+.rigth ul{
+    text-align: right;
+}
+.rigth ul li{
+    display: inline;
+}
+.rigth ul li a{
+    text-decoration: none;
+    font-family: 'helvetica';
+    color: #fff; 
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 60px;
+
+}
+
+
+
+
+/* SECTION EDITING STARTING ---------------------------------------*/
+
+
+
+
+.section{
+   background: url(./img.png) no-repeat;
+   background-size: cover;
+}
+.overly{
+    background: rgb(0, 0, 0 , .5);
+    padding: 200px 0;
+}
+.sub_section {
+    width: 1300px;
+    margin: 0 auto;
+}
+.sub_section h2{
+    text-align: center;
+    color: #fff;
+    font-family: 'helvetica';
+    font-size: 35px;
+}
+.sub_section p{
+    text-align: center;
+    color: #fff;
+    margin-top: 8px;
+}
+
+
+
+
+/* contact menu css coding Start */
+.contact_menu{
+   width: 700px;
+   margin: 0 auto;
+   padding: 30px;
+   border: 2px solid black;
+   border-radius: 30px 0 30px 0;
+   margin-top: -40px;
+   background-color: #fff;
+   transition: .5s;
+}
+.contact_menu:hover{
+   
+    border: 2px solid rgb(4, 146, 228);
+    border-radius:0 30px 0 30px ;
+   
+ }
+.contact_menu ul{
+    text-align: center;
+}
+.contact_menu ul li{
+    display: inline;
+    padding: 5px 10px;
+    
+}
+.contact_menu ul li a{
+    padding: 10px ;
+    border: black 1px solid;
+    border-radius:100px;
+    transition: .5s;
+    font-family: 'helvetica';
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 30px;
+}
+.contact_menu ul li a:hover{
+    padding: 12px ;
+    border: rgb(4, 146, 228) 1px solid;
+    border-radius:100px;
+    color: rgb(4, 146, 228);
+    font-size: 35px;
+
+}
+.the_rigth{
+    float: right;
+    width: 50%;
+}
+.the_left{
+    float: left;
+    width: 50%;
+}
+.s_the_p{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 20px 0;
+    
+}
+.the_rigth h1{
+    text-align: center;
+    border-bottom: 2px solid black ;
+    
+}
+.the_rigth a{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.the_rigth a img {
+    display: block;
+    margin: 0 auto;
+    text-align: center ;
+    border-radius: 100%;
+    width: 150px;
+}
+.the_rigth p{
+    text-align: center;
+}
+.the_rigth span{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'helvetica';
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+.the_left .ll{
+    margin-top: 20px;
+}
+.the_left img {
+    width: 250px;
+}
+/*#qtenBtn{
+    display: none;
+}
+#number{
+    display: none;
+} */
+
+
+.fab{
+   font-size: 50px;
+   padding: 15px;
+   text-align: center;
+   color: black;
+   transition: .5s;
+   border: black 1px solid;
+  border-radius: 100%;
+}
+.fab:hover{
+    font-size: 60px;
+    border: black 2px solid;
+  border-radius: 100%;
+   
+ }
+
+.fn td a{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.fn td h2{
+     text-align: center;
+
+     border-bottom: 1px solid black;
+}
+.fn td p{
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.fn td{
+    padding: 10px;
+}
+.sq{
+    width: 1300px;
+    margin: 80px auto;
+    
+}
+.the_p{
+    padding-top: 50px;
+}
+.mkk{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.yy td img{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 250px;
+}
+.yy td h1{
+    text-align: center;
+    font-family: 'helvetica';
+}
+.yy td p{
+    text-align: center;
+}
+.yy td input{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px 3px;
+}
+.mm td h1{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.Footer{
+    background: #000;
+}
+.Footer tr td{
+    padding: 10px 15px;
+}
+
+.footer_1 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer_1 ul h3{
+   color: #fff;
+   font-family: 'helvetica';
+   
+}
+.cc{
+    width: 1300px;
+    margin: 0 auto;
+}
+.h3_1{
+    color: #fff;
+    font-family: 'helvetica';
+    text-align: center;
+   
+}
+.logo_image{
+    width: 80px;
+
+}
+.mein_333{
+    margin: 0 auto;
+    width: 200px;
+}
+.sosial i{
+   color: #fff;
+   border: 1px #fff solid;
+   padding: 10px 20px;
+   border-radius: 100px;
+}
+.bbb{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.Trapick{
+    width: 1300px;
+    margin: 50px auto;
+    
+}
+
+.Trapick h1{
+    text-align: center;
+    font-family: 'helvetica';
+    margin: 20px auto;
+    width: 450px;
+    border-bottom: 1px solid black;
+}
+.left1 img {
+    width: 400px;
+}
+.left1{
+    float: left;
+    width: 50%;
+}
+.rigth2{
+    float: right;
+    width: 50%;
+    
+}
+#number{
+    display: inline
+    
+}

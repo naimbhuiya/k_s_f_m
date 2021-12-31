@@ -1,0 +1,112 @@
+@media (max-width: 600px){
+    .nav {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav .left p {
+        display: none;
+        color: #fff;
+        font-family: 'helvetica';
+    }
+    .nav .left a span {
+        line-height: 60px;
+    }
+    .sub_section {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sub_section h2 {
+        
+        font-size: 25px;
+    }
+    .fn td{
+      display: block;
+      margin: 0 auto;
+    }
+    .contact_menu {
+        width: 350px;
+    }
+        .s_the_p {
+            width: 100%;
+        }
+        .the_left {
+            float: none;
+            width: 100%;
+        }
+        .the_rigth {
+            float: none;
+            width: 100%;
+        }
+        .the_left h2{
+            text-align: center;
+        }
+        .the_left p{
+            text-align: center;
+        }
+        #oo{
+            display: block;
+            margin: 0 auto;
+        }
+        #pp{
+            display: block;
+            margin: 10px auto;
+        }
+        .the_left img {
+            width: 250px;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+        }
+        #hu span {
+            text-align: center;
+            display: block;
+        }
+        #number{
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        #qtenBtn{
+            margin: 10px auto;
+            
+        }
+        .sq {
+            width: 100%;
+            margin: 80px auto;
+        }
+        .Trapick {
+            width: 100%;
+           
+        }
+        .left1 {
+            float: none;
+            width: 100%;
+        }
+   
+    .rigth2 {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .left1 img {
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .yy td img {
+        width: 100px;
+    }
+    .yy td{
+        margin: 10px;
+        padding: 15px;
+        display: block;
+        margin: 0 auto;
+    }
+    .cc {
+        width: 100%;
+    }
+    .sosial{
+        width: '';
+    }
+}
